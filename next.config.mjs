@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '*.teable.io',
+        hostname: '*.seg.plus',
       },
     ],
   },
