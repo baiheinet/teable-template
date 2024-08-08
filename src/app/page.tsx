@@ -43,7 +43,7 @@ export default async function Home() {
                   {item.description}
                 </p>
                 <p className="my-3 text-sm text-gray-500">
-                  `by ${item.creator.title}`
+                  `by ${item.creator?.title || "赛鸽"}`
                 </p>
               </div>
             </Link>
