@@ -42,7 +42,9 @@ export default async function Home() {
                 <p className="`m-0 text-sm overflow-hidden line-clamp-2 text-gray-500">
                   {item.description}
                 </p>
-                <p className="my-3 text-sm text-gray-500">by Teable</p>
+                <p className="my-3 text-sm text-gray-500">
+                  `by {item.creator.title}`
+                </p>
               </div>
             </Link>
           );

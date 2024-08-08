@@ -19,6 +19,7 @@ export interface IRecordsType {
   cover?: IAttach[];
   shortCut?: IAttach[];
   recommend?: boolean;
+  creator: { title: string };
   tags?: string[];
   doc?: string;
 }
