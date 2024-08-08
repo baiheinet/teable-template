@@ -28,9 +28,6 @@ export default function Navbar() {
 
   const menus = [
     { title: "Home", path: "/" },
-    { title: "App", path: "https://app.teable.io" },
-    { title: "Help", path: "https://help.teable.io" },
-    { title: "Blog", path: "https://blog.teable.io" },
   ];
   const scrollTop = useBodyScrollPosition();
   return (
@@ -49,9 +46,9 @@ export default function Navbar() {
                 src="/favicon/android-72x72.png"
                 width={32}
                 height={32}
-                alt="teable Logo"
+                alt="segplus Logo"
               />
-              teable
+              赛鸽
             </h1>
           </Link>
           <div className="md:hidden">

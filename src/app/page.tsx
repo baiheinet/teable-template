@@ -8,11 +8,10 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col items-center lg:p-24 p-4">
       <section className="space-y-6 mb-20">
         <h1 className="text-center text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1] md:block">
-          Teable starter templates
+          赛鸽模板中心
         </h1>
         <h2 className="max-w-[750px] text-center text-lg text-muted-foreground sm:text-xl mt-">
-          Dive into Teable Templates — your fast track to tailor-made Teable
-          experiences, handpicked just for you!
+          快速获得为您精心挑选的定制模板，体验苦心孤诣获取的最佳实践！
         </h2>
       </section>
       <div className="mb-32 grid gap-4 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 text-left sm:grid-cols-2 grid-cols-1">
