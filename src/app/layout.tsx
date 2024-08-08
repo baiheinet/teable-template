@@ -7,9 +7,8 @@ import Footer from "@/components/navigation/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Templates - Teable",
-  description:
-    "Dive into the world of Teable Templates! Pick your perfect match from our carefully crafted collection and leap into action with Teable, tailored just for you.",
+  title: "Templates - 赛鸽",
+  description: "快速获得为您精心挑选的定制模板，体验苦心孤诣获取的最佳实践！",
 };
 
 export default function RootLayout({
