@@ -26,9 +26,7 @@ const useBodyScrollPosition = () => {
 export default function Navbar() {
   const [state, setState] = React.useState(false);
 
-  const menus = [
-    { title: "Home", path: "/" },
-  ];
+  const menus = [{ title: "Home", path: "/" }];
   const scrollTop = useBodyScrollPosition();
   return (
     <nav
@@ -61,9 +59,8 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-            state ? "block" : "hidden"
-          }`}
+          className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? "block" : "hidden"
+            }`}
         >
           <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {menus.map((item, idx) => (
