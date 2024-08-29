@@ -32,14 +32,14 @@ export interface IRecordsType {
  * Click on the gear ⚙️ in the top right corner of the table and you will see the id of all the fields
  */
 export const fieldIdMap = {
-  name: "fldGJhALtSeig8d24kC",
-  description: "fldLyt2IywK9ijbU0i9",
-  baseId: "fldHwZSUNcQoi8S5BP1",
-  cover: "fld3VwSRMgBuvnHC8nD",
-  recommend: "fldP9tUlPva74LxatEZ",
-  tags: "fldwi3AFS5e8xBTClOK",
-  shortCut: "flds0Cf4gHSNZx0hA7O",
-  doc: "fldWdYuCtUeGV7aeWAd",
+  name: "fldfwtSQtKntebURPSe",
+  description: "fldTN1DbCN92rWQNk9Q",
+  baseId: "fldw4yjK0UKkZai8dN7",
+  cover: "fldHcKE8aGzHnMOvJ4E",
+  recommend: "fldVxfNg6d2ORzh5CM7",
+  tags: "fldoUxMnBKXFGavEpJW",
+  shortCut: "fld6KdKdkLxn2nAN4uS",
+  doc: "fldjcjI0qzPpUK6eA6g",
 };
 
 // Transforms a raw record into a structured object based on the defined interfaces.
@@ -69,7 +69,7 @@ export const getTemplateList = async () => {
 
   // Constructs the request URL with query parameters for the Teable API.
   const url =
-    `https://t.seg.plus/api/table/${tableId}/record?` +
+    `https://teable.seg.plus/api/table/${tableId}/record?` +
     qs.stringify({
       viewId,
       fieldKeyType: "id", // Specifies that field IDs are used in the query.

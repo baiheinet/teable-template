@@ -30,7 +30,7 @@ export default async function Item(context: { params: { slug: string } }) {
             <a
               className=" block"
               href={
-                "https://t.seg.plus/space?action=createFromTemplate&tid=" +
+                "https://teable.seg.plus/space?action=createFromTemplate&tid=" +
                 template.baseId
               }
             >
